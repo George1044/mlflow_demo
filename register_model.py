@@ -1,4 +1,6 @@
 import mlflow
+import dagshub
+# dagshub.init(repo_owner='George1044', repo_name='mlflow_demo', mlflow=True)
 
 # Register the latest model to the model registry
 experiment_name = "my_ml_experiment"

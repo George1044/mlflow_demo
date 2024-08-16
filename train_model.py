@@ -6,6 +6,9 @@ from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import pandas as pd
+import dagshub
+# dagshub.init(repo_owner='George1044', repo_name='mlflow_demo', mlflow=True)
+
 
 # Load dataset
 iris = load_iris()
